@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+/* Chat Container Styles */
+
+  /* Styling for the input and button */
+  #message-input {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #send-button {
+    width: 90px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #send-button:hover {
+    background-color: #0056b3;
+  }
+  
